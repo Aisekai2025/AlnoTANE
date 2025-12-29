@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '')
 
   return {
-    base: '/AlnoTANE/',   // ← GitHub Pages 用の設定（重要）
+    base: '/AlnoTANE/',   // ← これが最重要
     server: {
       port: 3000,
       host: '0.0.0.0',
